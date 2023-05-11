@@ -1,0 +1,57 @@
+@import "./components/header.css";
+@import "./components/description.css";
+@import "./components/banner.css";
+@import "./components/services.css";
+@import "./components/form.css";
+@import "./components/footer.css";
+@import "./components/examples.css";
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+main{
+  background-color: #f7f6ff;
+}
+:root {
+  --gradient-color: linear-gradient(115.11deg, #ffbc2a 16.38%, #ff4f39 95.45%);
+  --black-color: #333;
+}
+.btn {
+  border: none;
+  background: var(--gradient-color);
+  color: #fff;
+  height: 54px;
+  border-radius: 250px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 14px 39px;
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700; /*bold*/
+  font-size: 38px;
+  color: var(--black-color);
+  text-transform: uppercase;
+}
+h3 {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500; /*medium*/
+  font-size: 16px;
+  color: var(--black-color);
+}
+p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400; /* regular*/
+  font-size: 16px;
+  color: var(--black-color);
+}

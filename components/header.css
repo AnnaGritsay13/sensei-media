@@ -1,0 +1,12 @@
+.header{
+  background-color: #fff;
+  height: 85px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 385px;
+}
